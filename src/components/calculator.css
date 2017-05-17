@@ -1,0 +1,32 @@
+.calculator {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width:500px;
+}
+
+.zero-button, .decimal-button {
+  width: 22.2%;
+}
+
+.equal-button {
+  width: 55.6%;
+}
+
+.clear-button, .backspace-button {
+  width: 50%;
+}
+
+.numbers, .advanced-operations {
+  width: 66.66%;
+}
+
+.bottom-div {
+  width: 100%;
+}
+
+.button-section {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
